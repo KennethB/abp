@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\..\common.test.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net7</TargetFramework>
+        <RootNamespace />
+        <UserSecretsId>9f0d2c00-80c1-435b-bfab-2c39c8249091</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdkPackageVersion)" />
+        <ProjectReference Include="..\..\src\Volo.Abp.Autofac\Volo.Abp.Autofac.csproj" />
+        <ProjectReference Include="..\..\src\Volo.Abp.BlobStoring.OneDrive\Volo.Abp.BlobStoring.OneDrive.csproj" />
+        <ProjectReference Include="..\..\src\Volo.Abp.BlobStoring\Volo.Abp.BlobStoring.csproj" />
+        <ProjectReference Include="..\..\src\Volo.Abp.TestBase\Volo.Abp.TestBase.csproj" />
+        <ProjectReference Include="..\AbpTestBase\AbpTestBase.csproj" />
+        <ProjectReference Include="..\Volo.Abp.BlobStoring.Tests\Volo.Abp.BlobStoring.Tests.csproj" />
+    </ItemGroup>
+
+</Project>
