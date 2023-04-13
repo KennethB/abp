@@ -26,15 +26,15 @@ public class AbpBlobStoringOneDriveTestCommonModule : AbpModule
 )]
 public class AbpBlobStoringOneDriveTestModule : AbpModule
 {
-    public const string _clientId = "OneDrive.ClientId";
-    public const string _tenantId = "OneDrive.TenantId";
-    public const string _secret = "OneDrive.Secret";
+    public const string _clientId = "2caa0e3e-60a7-49fb-9061-d5bf559997b7";
+    public const string _tenantId = "30ee5f9e-02e4-4c6f-a1b7-198e56e9ceba";
+    public const string _secret = "NNfl_w.V0FIiv1siG15P-7RPEV.reoj.4v";
     public const string _siteId = "OneDrive.SiteId";
-    public const string _driveId = "OneDrive.DriveId";
-    public const string _rootPath = "OneDrive.RootPath";
-    public const string _rootPathId = "OneDrive.RootPathId";
-    public const string _standardMode = "OneDrive.StandardMode";
-    public const string _createContainerIfNotExists = "OneDrive.CreateContainerIfNotExists";
+    public const string _driveId = "b!G6iCv6MydU-_GDm6SoOo_duNio_K8TJLjk2waoMTH-I1CJUzEn1yRZK0Mbsu6Bph";
+    public const string _rootPath = "https://amsparshare.sharepoint.com/sites/Projects/03764.0/Shared%20Documents";
+    public const string _rootPathId = "01NFHCYUV6Y2GOVW7725BZO354PWSELRRZ";
+    public const string _standardMode = "true";
+    public const string _createContainerIfNotExists = "true";
     public const string _containerName = "OneDrive.ContainerName";
 
     private readonly string _randomContainerName = "abp-onedrive-test-container-" + Guid.NewGuid().ToString("N");
